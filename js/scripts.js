@@ -19,6 +19,10 @@ $(document).ready(function() {
   //$("#result").show();
    
   //$('#result').toggle(deck);
-  $('#result').toggle(deck).html(deck);
+  $('#result').toggle().html(deck);
+  // .toggle is an animation essentially so putting deck into the toggle 
+  //method makes it come in smoothly but omitting it from toggle and putting 
+  //it only in html toggles all of the results and shows the contents of the deck immediately and not
+  //all smooooooth like toggle does.
   });
 });
