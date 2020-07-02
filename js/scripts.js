@@ -17,7 +17,8 @@ $(document).ready(function() {
 
 // Business Logic
   //$("#result").show();
-  $('.wholedeck').html(deck); 
-  $('#result').toggle(deck);
+   
+  //$('#result').toggle(deck);
+  $('#result').toggle(deck).html(deck);
   });
 });
